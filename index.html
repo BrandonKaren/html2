@@ -66,8 +66,35 @@
             <label>Mascota</label>
             <input type="text" id="name" name="nombre" required="" placeholder="nombre"/>
             <label for="numtarjeta">edad</label>
-            
+            <input id="numtarjeta" name="numtarjeta" type="number" placeholder="en meses" required/>
+            <label>Raza</label>
+            ><input type="text" id="name" name="nombre" required="" placeholder="nombre" />
+            <label>Fecha</label>
+            <input type="date" name="fecha" id="fecha" required="" placeholder="fecha" />
+            <label for="numtarjeta">hora</label>
+            <input type="time" name="hora" min="18:00" max="21:00" step="3600" />
+            <label>amo</label>
+            <input type="text" id="name" name="nombre" required="" placeholder="nombre" />
+            <button type="submit" name="enviar" id="boton"> validar cita</button>
         </form>
     </div>
-</body>
+    </div>
+    <div class="row">
+        <footer id="piedepagina">
+            <p>contactenos</p>
+            <p>linea gratuita 3154839565</p>
+            <p> correo: <a href="petcity@example.com"></a></p>
+        </footer>
+    </div>
+    <script>
+        (function() {
+            var registro=function() {
+                alert('registro exitoso');
+            }
+
+            var boton = document.getElementById('boton');
+            boton.addEventListener("click", registro)
+        }())
+        </script>
+    </body>
 </html>
