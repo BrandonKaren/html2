@@ -159,12 +159,12 @@ hr.new5 {
 }
 
 .vl{
-    height: 0px;
+    height: 50px;
 }
 
 h1{
     font-family:'Kanit', Cooper black;
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin: 0;
     text-align: center;
 }
@@ -178,8 +178,8 @@ h2{
 
 h3{
     font-family:'Kanit', Cooper black ;
-    text-indent: 2.9em;
-    font-size: 2.5em;
+    text-indent: 4.5em;
+    font-size: 3.5em;
 }
 #contenido{
     margin: 0%;
